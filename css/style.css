@@ -218,6 +218,9 @@ section {
 
 #clients .col-2-3 [class*='col-'] {
     padding: 0;
+    margin-top: 500px;
+    position: relative;
+    bottom: 450px;
 }
 
 /* Clearfix */
@@ -235,7 +238,7 @@ section {
 }
 
 .col-2 {
-    width: 50%;
+    width: 30%;
 }
 
 .col-3 {
@@ -331,7 +334,6 @@ section {
 
 #logo {
     float: left;
-    height: 71px;
     line-height: 66px;
     margin-right: 15px;
 }
@@ -353,9 +355,11 @@ section {
 }
 
 #logo img {
-    max-height: 22px;
+    max-height: 200px;
     vertical-align: middle;
     margin-right: 15px;
+    position: relative;
+    bottom: 60px;
 }
 
 #navigation-logo {
@@ -377,6 +381,10 @@ section {
 }
 
 /*Style*/
+
+.redux, .postgresql {
+    width: 32px;
+}
 
 .button {
     font-size: 16px;
@@ -822,10 +830,12 @@ h6 {
 .icon-block h4 {
     font-weight: bold;
     padding-top: 0;
+    text-align: center;
 }
 
 .icon-block .icon {
     position: absolute;
+    text-align: center;
 }
 
 .icon-block p {
@@ -975,7 +985,19 @@ blockquote {
 /* --------- 6.4 Gallery ---------- */
 
 #gallery img {
-    max-height: 300px;
+    margin-top: 1%;
+    max-height: 190px;
+    max-width: 375px;
+    border: 1px solid
+    #ccccd1;
+}
+
+#connor{
+    border-radius: 10000px;
+    position: relative;
+    left: 10%;
+    top: 250px;
+    filter: grayscale(50%)
 }
 
 #gallery [class*='col-'] {
@@ -1390,14 +1412,14 @@ blockquote {
 
 #clients img {
     display: inline-block;
+    width: 150px;
     padding: 15px 25px;
 }
 
 .client-overlay {
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
-    top;
-    0;
+    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
@@ -2326,7 +2348,3 @@ blockquote {
     }
 
 }
-
-
-
-
