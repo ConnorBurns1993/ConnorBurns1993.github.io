@@ -2125,6 +2125,25 @@ blockquote {
 /* Landscape mobile & down
 ===============================*/
 @media (max-width: 480px) {
+    #banner {
+        background: none;
+    }
+
+    .mobile-contact{
+        display: inline-flex;
+    }
+
+    .col-2-3{
+        display: none;
+    }
+
+    .client-overlay{
+        height: 5px;
+    }
+
+    #connor {
+        display: none;
+    }
 
     #wrapper {
         margin:0;
