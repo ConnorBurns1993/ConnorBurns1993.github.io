@@ -285,6 +285,10 @@ section {
     width: 66.66%;
 }
 
+.col-2-3-skills {
+    width: 66.66%;
+}
+
 .col-3-4 {
     width: 75%;
 }
@@ -2135,6 +2139,12 @@ blockquote {
 
     .col-2-3{
         display: none;
+    }
+
+    .col-2-3-skills {
+        width: 200px;
+        position: relative;
+        left: 22%;
     }
 
     .client-overlay{
