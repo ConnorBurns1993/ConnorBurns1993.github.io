@@ -997,11 +997,11 @@ blockquote {
 }
 
 #connor{
-    border-radius: 10000px;
+    border-radius: 1000px;
     position: relative;
     left: 10%;
-    top: 250px;
-    filter: grayscale(50%)
+    top: 260px;
+    filter: grayscale(20%)
 }
 
 #gallery [class*='col-'] {
