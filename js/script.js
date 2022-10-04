@@ -1,11 +1,10 @@
-import "../css/style.css";
-import "../css/animate.css";
-import "../css/font-awesome.css";
-import "../css/font-awesome.min.css";
-import "../css/namari-color.css";
+// import "../css/style.css";
+// import "../css/animate.css";
+// import "../css/font-awesome.css";
+// import "../css/font-awesome.min.css";
+// import "../css/namari-color.css";
 
 import * as THREE from "three";
-import * as dat from "lil-gui";
 import gsap from "gsap";
 
 const parameters = {
