@@ -5,7 +5,6 @@ import "../css/font-awesome.min.css";
 import "../css/namari-color.css";
 
 import * as THREE from "three";
-import * as dat from "lil-gui";
 import gsap from "gsap";
 
 const parameters = {
