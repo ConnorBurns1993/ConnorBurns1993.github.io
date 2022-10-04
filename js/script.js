@@ -5,7 +5,6 @@
 // import "../css/namari-color.css";
 
 import * as THREE from "three";
-
 import gsap from "gsap";
 
 const parameters = {
