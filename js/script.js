@@ -4,8 +4,10 @@
 // import "../css/font-awesome.min.css";
 // import "../css/namari-color.css";
 
-import * as THREE from "three";
-import gsap from "gsap";
+// import * as THREE from "three";
+const THREE = require("three");
+// import gsap from "gsap";
+const gsap = require("gsap");
 
 const parameters = {
   materialColor: "#b90000",
