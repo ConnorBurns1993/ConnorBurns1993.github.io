@@ -7,6 +7,7 @@ module.exports = {
   entry: [path.resolve(__dirname, "../src/js/script.js")],
   output: {
     hashFunction: "xxhash64",
+    publicPath: "http://localhost:8080/",
     clean: true,
     filename: "bundle.[contenthash].js",
     path: path.resolve(__dirname, "../dist"),
