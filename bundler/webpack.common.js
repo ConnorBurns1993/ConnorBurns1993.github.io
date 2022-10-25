@@ -5,12 +5,14 @@ const path = require("path");
 
 module.exports = {
   entry: [path.resolve(__dirname, "../src/js/script.js")],
+  optimization: {
+    realContentHash: false,
+  },
   output: {
-    hashFunction: "xxhash64",
-    publicPath: "http://localhost:8080/",
-    clean: true,
-    filename: "bundle.[contenthash].js",
+    // hashFunction: "xxhash64",
+    // clean: true,
     path: path.resolve(__dirname, "../dist"),
+    filename: "bundle.[contenthash].js",
   },
   devtool: "source-map",
   plugins: [
