@@ -8222,6 +8222,7 @@ body {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 17px;
     font-weight:300;
+    margin-bottom: 25px;
 }
 
 .testimonial.classic q, .testimonial.classic footer {
