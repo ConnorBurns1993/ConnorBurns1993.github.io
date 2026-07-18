@@ -958,7 +958,6 @@ h6 {
 
 blockquote {
     position: relative;
-    margin-bottom: 1.5em;
 }
 
 .testimonial img {
@@ -979,6 +978,7 @@ blockquote {
 
 .testimonial.classic q {
     display: block;
+    margin-bottom: 25px;
 }
 
 .testimonial.classic footer:before {
